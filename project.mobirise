@@ -21,13 +21,21 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#3399cc"
+        "#3399cc",
+        "#232323",
+        "#2e2e2e",
+        "#323232"
       ]
     },
     "path": "@PROJECT_PATH@",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "siteUrl": "undefined",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 15,
-    "versionPublish": "4.7.2"
+    "uniqCompNum": 33,
+    "versionPublish": "4.7.2",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -41,21 +49,113 @@
       },
       "components": [
         {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".lead P": {
+              "text-align": "left",
+              "font-size": "22px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1079.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Are you a <br>Sharing Moon ?",
+          "text": "<p>Tillsammans skapar vi den nya marknaden för kvinnors sanitetslösningar.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-m"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "22px"
+            },
+            ".mbr-section-subtitle B": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff"
+          },
+          "title": "",
+          "meta": "<b>Välkommen till Sharing Moon – den nya tidens företag för kvinnors sanitetsskydd. </b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-n"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Vår produkt är säkra bindor och tamponger som ger minsta möjliga miljöpåverkan. Vi marknadsför och säljer våra produkter på den indiska marknaden. Drivkraften är viljan att utveckla kreativa, sociala lösningar där du som kund tillsammans med andra kvinnor skapar ett lägre pris på era sanitetsskydd. Sharing Moon bidrar dessutom till att minska det enorma avfall av plast som sanitetsskydd och andra engångsprodukter lämnar efter sig.&nbsp;</p><p><br></p>",
+          "text2": "<p>Som användare av Sharing Moons produkter kan du vara säker på att produkterna är helt fria från plast. Sharing Moon är ett kommersiellt företag – men som genom en helt ny affärsmodell kommer att sänka priset på bindor och tamponger för dig och dina vänner. Att vara en Sharing Moon är roligt, smart och lätt. 2018 är ett intensivt år för Sharing Moons utveckling, de första produkterna kommer att finnas tillgängliga våren 2019.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-p",
+          "_styles": {
+            "P": {
+              "color": "#232323",
+              "text-align": "left"
+            }
+          }
+        },
+        {
           "_inherit": "menu",
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#3d8eb9",
-            "fontSize": 0.75,
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-n\">OM OSS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content8-q\">FRAMTID</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-u\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -78,10 +178,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -133,52 +233,322 @@
           "_anchor": "ext_menu-c"
         },
         {
-          "_inherit": "header1",
           "_styles": {
-            ".mbr-section-title": {
-              "color": "#000"
+            ".mbr-section-title, p": {
+              "color": "#fff"
             },
-            ".mbr-section-lead": {
-              "color": "#9c9a9a",
-              "text-align": "left",
-              "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+            ".lead B": {
+              "color": "#efefef",
               "font-size": "16px"
             },
-            ".mbr-section-lead SPAN": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "16px",
-              "color": "#fac51c"
+            ".lead": {
+              "text-align": "center",
+              "font-size": "36px"
+            },
+            ".lead SPAN": {
+              "font-size": "32px"
+            },
+            ".lead P": {
+              "font-size": "21px",
+              "text-align": "center"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "left",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#000",
+            "overlay": true,
+            "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "Are You a Sharing Moon ?&nbsp;<br>",
-          "text": "<span style=\"font-style: normal;\"><b><br></b></span><br><span style=\"font-style: normal;\"><b>Välkommen till Sharing Moon. <br></b></span><br>Vi är ett nystartat bolag med kvinnor i Indien som marknad. Vår produkt är säkra sanitetskydd som ger minsta möjliga miljöpåverkan. Vår drivkraft är viljan att utveckla kreativa, sociala lösningar som ger kvinnor möjligheter att utbilda sig och tjäna pengar. Sharing Moons lösning bidrar dessutom till att minska det enorma avfall av plast som sanitetskydd i form av engångsprodukter lämnar efter sig.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>",
+          "title": "",
+          "text": "<p>We must be part of the change we want to see in the World.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header5",
-          "_anchor": "header5-e"
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-f"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "3",
+            "paddingBottom": "2",
+            "bgColor": "#fff"
+          },
+          "title": "Vad är Sharing Moon ?&nbsp;",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-h"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Affärsidé och vision</b></p><p>Sharing Moon utvecklar och marknadsför säkra sanitetsskydd som bindor och tamponger, i innovativa förpackningar, via digitala marknadsplatser. Att följa, dela och uppleva Sharing Moon bidrar till att fler kvinnor kan använda bra sanitetsskydd som inte innehåller plast. Genom att handla med och av varandra sänker vi också priset på en produkt som varje kvinna måste ha.</p><p>&nbsp;</p><p>Tillsammans skapar vi en framtid som bygger på kunskap och delade värden. Vår natur, våra vatten och städerna som vi bor i blir renare och i framtiden helt plastfri. &nbsp;</p><p>&nbsp;</p><p>Sharing Moon kommer 2019 att erbjuda dig och dina väninnor säkra sanitetsskydd till ett bättre pris. Det är lätt att handla våra produkter som är roligare och smartare än något annat sanitetsskydd.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-g",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_inherit": "content5",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "text-align": "right",
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#3399cc",
+            "overlayOpacity": "0.2"
+          },
+          "title": "Så utvecklas Sharing Moon<br>",
+          "caption": "<p><span style=\"font-size: 1.07rem;\">Sharing Moon startades i slutet av 2016 som ett svenskt aktiebolag. Sharing Moon är ett kommersiellt företag – men som har som mål att genom en ny affärsmodell sänka priset på bindor och tamponger för kvinnor i Indien och andra länder. Vi är idag ett team på 5 personer i Sverige och Indien som utvecklar produkterna, affärsmodellen och den digitala marknadsplatsen.</span></p><p><span style=\"font-size: 1.07rem;\">Vårt mål är att 2020 vara ett större team som arbetar i Sverige för att serva våra kunder i Indien och på andra platser i världen.</span></p><p>VI värdesätter kreativitet, kunskap och delade vinster.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content8",
+          "_anchor": "content8-q"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1080x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 Sharing Moon. AB",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-t"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#ffffff",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Be a Sharing Moon.<br>",
+          "subtitle": "För frågor och kontakt fyll i formuläret nedan så återkommer vi så fort vi har möjlighet.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SKICKA&nbsp;</a>",
+          "form": {
+            "action": "bobby@sharingmoon.com",
+            "alerts": {
+              "success": "Tack för ditt meddelande !"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telefonnummer"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Meddelande"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-u",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            "SMALL": {
+              "text-align": "center",
+              "color": "#ffffff",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Web Page Builder Description",
+        "title": "Page 1",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#3d8eb9",
+            "fontSize": "0.9",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-n\">OM OSS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content8-q\">FRAMTID</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-u\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.9rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.975rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#307193"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#3985ad!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#3d8eb9"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logotyp-sharing-moon-180213-for-webb-2-413x102.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 50,
+              "color": "#3d8eb9"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SHARING MOON&nbsp;</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-r"
         }
       ]
     }

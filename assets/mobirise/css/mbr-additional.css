@@ -1,9 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 
 
@@ -417,6 +416,35 @@ h6,
 .scrollToTop_wraper {
   display: none;
 }
+#msg-box8-m .mbr-section-title,
+#msg-box8-m p {
+  color: #fff;
+}
+#msg-box8-m .mbr-section-title {
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+#msg-box8-m .lead P {
+  text-align: left;
+  font-size: 22px;
+}
+#header3-n .mbr-section-title,
+#header3-n .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-n .mbr-section-subtitle {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+#header3-n .mbr-section-subtitle B {
+  color: #000000;
+}
+#content6-p P {
+  color: #232323;
+  text-align: left;
+}
 #ext_menu-c .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -436,11 +464,11 @@ h6,
   color: #ffffff;
 }
 #ext_menu-c .link {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
 }
 #ext_menu-c .dropdown-item,
 #ext_menu-c .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.975rem;
 }
 #ext_menu-c .link:hover,
 #ext_menu-c .dropdown-item:hover,
@@ -479,17 +507,118 @@ h6,
 #ext_menu-c .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
-#header5-e .mbr-section-title {
-  color: #000;
+#msg-box8-f .mbr-section-title,
+#msg-box8-f p {
+  color: #fff;
 }
-#header5-e .mbr-section-lead {
-  color: #9c9a9a;
+#msg-box8-f .lead B {
+  color: #efefef;
+  font-size: 16px;
+}
+#msg-box8-f .lead {
+  text-align: center;
+  font-size: 36px;
+}
+#msg-box8-f .lead SPAN {
+  font-size: 32px;
+}
+#msg-box8-f .lead P {
+  font-size: 21px;
+  text-align: center;
+}
+#header3-h .mbr-section-title,
+#header3-h .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-h .mbr-section-title {
+  text-align: center;
+}
+#content1-g P {
   text-align: left;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
 }
-#header5-e .mbr-section-lead SPAN {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #fac51c;
+#content8-q .mbr-section-title,
+#content8-q p {
+  text-align: right;
+  color: #fff;
+}
+#content8-q .mbr-section-title {
+  text-align: center;
+}
+#content8-q P {
+  text-align: center;
+}
+#form1-u .form-control-label {
+  color: #ffffff;
+}
+#form1-u SMALL {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'PT Sans', sans-serif;
+}
+#form1-u .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+#ext_menu-r .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-r .navbar-caption {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+#ext_menu-r .navbar-toggler {
+  color: #ffffff;
+}
+#ext_menu-r .close-icon::before,
+#ext_menu-r .close-icon::after {
+  background-color: #ffffff;
+}
+#ext_menu-r .link,
+#ext_menu-r .dropdown-item {
+  color: #ffffff;
+}
+#ext_menu-r .link {
+  font-size: 0.9rem;
+}
+#ext_menu-r .dropdown-item,
+#ext_menu-r .nav-dropdown-sm .link {
+  font-size: 0.975rem;
+}
+#ext_menu-r .link:hover,
+#ext_menu-r .dropdown-item:hover,
+#ext_menu-r .link:focus,
+#ext_menu-r .dropdown-item:focus {
+  color: #c0a375;
+}
+#ext_menu-r .link[aria-expanded="true"],
+#ext_menu-r .dropdown-menu {
+  background: #307193;
+}
+#ext_menu-r .nav-dropdown-sm .link:focus,
+#ext_menu-r .nav-dropdown-sm .link:hover,
+#ext_menu-r .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-r .nav-dropdown-sm .dropdown-item:hover {
+  background: #3985ad!important;
+}
+#ext_menu-r .navbar,
+#ext_menu-r .nav-dropdown-sm,
+#ext_menu-r .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-r .nav-dropdown-sm .dropdown-menu {
+  background: #3d8eb9;
+}
+#ext_menu-r .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#ext_menu-r .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-r .bg-color.transparent.opened .link:hover,
+#ext_menu-r .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#ext_menu-r .link[aria-expanded="true"],
+#ext_menu-r .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
 }
