@@ -59,7 +59,7 @@
               "color": "#ffffff"
             },
             ".lead P": {
-              "text-align": "left",
+              "text-align": "center",
               "font-size": "22px"
             }
           },
@@ -273,7 +273,7 @@
             "overlayOpacity": 0.5
           },
           "title": "",
-          "text": "<p>We must be part of the change we want to see in the World.</p>",
+          "text": "<p>We must be part of the change we want to see in the world.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Theme"
